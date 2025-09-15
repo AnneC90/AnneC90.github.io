@@ -3,7 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-image: url("images/81Q+4BHhQYL.jpg");
+  background-size: cover; 
   margin: 20px;
 }
 

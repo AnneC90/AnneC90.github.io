@@ -34,8 +34,9 @@ $(function () {
 createPlatform(100, 650, 150, 20, "gray");
 createPlatform(400, 550, 150, 20, "gray");
 createPlatform(700, 450, 150, 20, "gray");
-createPlatform(400, 350, 150, 20, "gray");
+createPlatform(400, 350, 150, 20, "Yellow");
 createPlatform(900, 610, 150, 20, "gray"); 
+createPlatform(930, 350, 150, 20, "gray"); 
 
     // TODO 3 - Create Collectables
 
@@ -43,8 +44,9 @@ createPlatform(900, 610, 150, 20, "gray");
 
     
     // TODO 4 - Create Cannons
-createCollectable("steve", 1350, 50);
+createCollectable("gold1", 460, 300);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
+createCollectable("goldsack", 1250, 650);
 
     
     

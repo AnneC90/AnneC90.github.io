@@ -70,7 +70,7 @@ let offsetX = 0;
 let offsetY = 0;
 
 // Platform, cannon, projectile, and collectable variables
-let platforms = [];
+let platforms = [   ];
 let cannons = [];
 const cannonWidth = 118;
 const cannonHeight = 80;
@@ -98,4 +98,7 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  gold1: {image: "images/collectables/gold1.png"},
+  goldsack: {image: "images/collectables/goldsack.jpeg"}
+  : {image "images/goldBag.jpg"}
 };

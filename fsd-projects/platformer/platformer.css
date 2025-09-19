@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-image: url("images/81Q+4BHhQYL.jpg");
+  background: rgb(0, 0, 0);
   background-size: cover; 
   margin: 20px;
 }

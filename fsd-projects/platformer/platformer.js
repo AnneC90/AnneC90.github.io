@@ -46,7 +46,7 @@ createPlatform(930, 350, 150, 20, "gray");
     // TODO 4 - Create Cannons
 createCollectable("gold1", 460, 300);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
-createCollectable("goldsack", 1250, 650);
+createCollectable("goldbag", 1250, 650);
 
     
     

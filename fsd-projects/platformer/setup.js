@@ -99,6 +99,6 @@ var collectableList = {
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
   gold1: {image: "images/collectables/gold1.png"},
-  goldsack: {image: "images/collectables/goldsack.jpeg"}
-  : {image "images/goldBag.jpg"}
+  goldsack: {image: "images/collectables/goldsack.jpeg"},
+  goldBag: {image: "images/goldBag.jpg"},
 };

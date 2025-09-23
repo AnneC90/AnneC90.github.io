@@ -40,13 +40,13 @@ createPlatform(930, 350, 150, 20, "gray");
 
     // TODO 3 - Create Collectables
 
-
-
-    
-    // TODO 4 - Create Cannons
 createCollectable("gold1", 460, 300);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
 createCollectable("goldbag", 1250, 650);
+createCollectable("goldchest", 400, 150);
+
+    
+    // TODO 4 - Create Cannons
 
     
     

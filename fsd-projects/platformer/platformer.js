@@ -48,7 +48,8 @@ createCollectable("goldchest", 400, 150);
     
     // TODO 4 - Create Cannons
 
-    
+createCannon("top", 200, 50);
+createCannon("right", 300, 2000); 
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //

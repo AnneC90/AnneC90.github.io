@@ -6,9 +6,9 @@
     <script src="jquery.min.js"></script>
     <style>
       .box {
-        width: 70px;
+        width: 90px;
         height: 70px;
-        background-color: teal;
+        background-color: rgb(83, 131, 131);
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -69,9 +69,8 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
-
-
+        
+        PositionX = 0;
 
 
         /**
@@ -80,7 +79,7 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-
+PositionX += 10;
         
 
           
@@ -94,7 +93,7 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-
+PositionX = 0;
 
 
 

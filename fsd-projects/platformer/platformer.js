@@ -37,19 +37,22 @@ createPlatform(700, 450, 150, 20, "gray");
 createPlatform(400, 350, 150, 20, "Yellow");
 createPlatform(900, 610, 150, 20, "gray"); 
 createPlatform(930, 350, 150, 20, "gray"); 
+createPlatform(1000, 300, 90, 20, "white");
 
     // TODO 3 - Create Collectables
 
 createCollectable("gold1", 460, 300);
-createCollectable("diamond", 200, 170, 0.5, 0.7);
-createCollectable("goldbag", 1250, 650);
+createCollectable("gold1", 200, 170, 0.5, 0.7);
+createCollectable("goldsack", 1250, 650);
 createCollectable("goldchest", 400, 150);
 
     
     // TODO 4 - Create Cannons
 
-createCannon("top", 200, 50);
+createCannon("top", 200, 1000);
 createCannon("right", 300, 2000); 
+createCannon("left", 400, 2000); 
+
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //

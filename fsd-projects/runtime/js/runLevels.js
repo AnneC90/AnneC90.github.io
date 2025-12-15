@@ -3,7 +3,7 @@ var runLevels = function (window) {
 
 
  var draw = window.opspark.draw;
- var createjs = window.createjs;
+ var js = window.createjs;
  let currentLevel = 0;
 
 
@@ -35,7 +35,7 @@ var runLevels = function (window) {
    obstacleImage.y  = -25
    obstacleImage.x  = -25
   }
-   createSawBlade(400, 325)
+   createSawBlade(400, 450)
   createSawBlade(700, 200)
      createSawBlade(700, 370)
  var enemy = game.createGameItem("enemy", 25);
@@ -44,7 +44,7 @@ var runLevels = function (window) {
    redSquare.y = -25;
    enemy.addChild(redSquare);
    enemy.x = 400;
-   enemy.y = groundY - 50;
+   enemy.y = groundY - 80;
   game.addGameItem(enemy);
   enemy.velocityX = -1
   enemy.rotationalVelocity = 50000
